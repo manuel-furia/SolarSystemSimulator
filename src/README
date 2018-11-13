@@ -1,0 +1,6 @@
+How to build:
+
+1) cd in the src folder
+2) gfortran -o ../run/celsim celestial.f90 gravity.f90 loadsave.f90 orbit.f90 phys.f90 main.f90
+
+The program will be placed in /run

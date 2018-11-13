@@ -1,0 +1,24 @@
+Input file:
+
+<(float)Length of the timestep>
+<(float)Total duration>
+<(int)Total number of frames to save>
+<(int)Debug every: Number of saved steps after which print the information on screen, if -1 don't print>
+<(float)Angular precision of Orbit>
+<(int)Number of objects>
+<Object1 Name>
+<Object1 Mass> <X> <Y> <Z> <VX> <VY> <VZ>
+<Object2 Name>
+<Object2 Mass> <X> <Y> <Z> <VX> <VY> <VZ>
+...
+
+NOTE: Coordinate and velocities are floats
+
+Output Files:
+
+-- Sim:
+Time: <time> Steps: <steps> Saved steps: <animsteps>
+<object1 name> -> CM dist: <distance> Speed: <speed> Pos: <X> <Y> <Z> Vel: <VX> <VY> <VZ> Acc: <AX> <AY> <AZ> Period: <period> Min distance: <mindist> Max distance: <maxdist> Completed orbits: <complorb>  
+<object2 name> -> CM dist: <distance> Speed: <speed> Pos: <X> <Y> <Z> Vel: <VX> <VY> <VZ> Acc: <AX> <AY> <AZ> Period: <period> Min distance: <mindist> Max distance: <maxdist> Completed orbits: <complorb>  
+...
+
